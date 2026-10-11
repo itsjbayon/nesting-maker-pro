@@ -1,0 +1,28 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# PyInstaller & Build artifacts
+build/
+dist/
+*.spec
+
+# OS Generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
