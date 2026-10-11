@@ -28,9 +28,30 @@ Powered by a cutting-edge **discrete rasterization and Fast Fourier Transform (F
 
 ---
 
+## 📸 Screenshots & Showcase
+
+<p align="center">
+  <b>1. Modern UI & Workspace (Dark Mode, Bilingual controls & sheet sizing)</b><br>
+  <img src="media/Example1.png" alt="Nesting Maker Pro - UI & Workspace" width="92%">
+</p>
+<br>
+
+<p align="center">
+  <b>2. Interactive Piece Management (Multi-file loading, thumbnails, quantities & individual deletion)</b><br>
+  <img src="media/Example2.png" alt="Nesting Maker Pro - Part Loading and Piece Management" width="92%">
+</p>
+<br>
+
+<p align="center">
+  <b>3. High-Density Nested Results (Optimized packing layout on raw material sheet)</b><br>
+  <img src="media/Example3.png" alt="Nesting Maker Pro - Optimized Nested Layout" width="92%">
+</p>
+
+---
+
 ## 💡 The Power of Being 100% Offline (Why Desktop Beats the Cloud)
 
-Unlike cloud-dependent web tools (such as *LaserBurn AI* or online nesting portals), **Nesting Maker Pro is built from the ground up to operate completely offline**. Here is why this is a game-changer for digital fabrication:
+Unlike cloud-dependent web tools and online nesting portals, **Nesting Maker Pro is built from the ground up to operate completely offline**. Here is why this is a game-changer for digital fabrication:
 
 ### 1. 📶 Zero Internet Required (Workshop Resilience)
 * Industrial workshops, basements, and maker spaces often suffer from weak or non-existent Wi-Fi connections.
@@ -78,7 +99,7 @@ Traditional geometric nesting solvers rely on **No-Fit Polygons (NFP)**, which f
 ### Option 1: Standalone Windows Installer (Recommended)
 Download the pre-compiled installer:
 * **`Instalador Nesting Maker Pro 2.0.1.exe`**
-* Features a full setup wizard with custom desktop shortcuts and an **interactive background soundtrack (`Nestingmaker music.mp3`)**!
+* Features a clean setup wizard that automatically configures the application and creates Desktop and Start Menu shortcuts.
 
 ### Option 2: Running from Source
 
@@ -89,7 +110,7 @@ Download the pre-compiled installer:
 #### Setup
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/nesting-maker-pro.git
+git clone https://github.com/itsjbayon/nesting-maker-pro.git
 cd nesting-maker-pro
 
 # 2. Create and activate a virtual environment
@@ -129,14 +150,16 @@ python main.py
 nesting-maker-pro/
 ├── main.py                     # PyQt6 GUI Application Entry Point
 ├── nesting_engine.py           # Bridge between Vector SVG & Raster Solver
-├── installer.py                # Standalone Audio-Powered Setup Wizard
+├── installer.py                # Standalone GUI Setup Wizard
 ├── requirements.txt            # Python Dependencies
 ├── icon.ico                    # Windows Application Icon
 ├── LICENSE                     # MIT License
 ├── README.md                   # Documentation (English)
 ├── media/
 │   ├── Logo.jpg                # Official Brand Logo
-│   └── Nestingmaker music.mp3  # Chiptune Background Soundtrack
+│   ├── Example1.png            # App UI & Part Loading Screenshot
+│   ├── Example2.png            # Nested Layout Optimization Screenshot
+│   └── Example3.png            # Advanced Topology & Hole-Packing Screenshot
 └── raster_engine_v2/           # Mathematical Raster Nesting Core
     ├── __init__.py
     ├── engine.py               # RasterNestingEngine facade
@@ -156,5 +179,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 💜 Author & Acknowledgments
 
-* **Created by:** [Javier Bayón Álvarez](https://github.com/)
+* **Created by:** [Javier Bayón Álvarez](https://github.com/itsjbayon)
 * Dedicated to the open-source maker community, laser cutting enthusiasts, and CNC fabricators worldwide.
